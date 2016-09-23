@@ -49,6 +49,7 @@ public class LonelyTwitterActivity extends Activity {
 				Tweet newTweet = new NormalTweet(text);
 				tweetList.add(newTweet);
 				adapter.notifyDataSetChanged();
+				//Here is a change
 				saveInFile();
 			}
 		});
